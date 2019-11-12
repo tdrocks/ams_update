@@ -1,0 +1,129 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Merriweather', serif;
+	text-align:center;
+}
+
+input[type="text"], input[type="password"]{
+	outline:none;
+	padding:10px;
+	display:block;
+	width:300px;
+	border-radius: 5px;
+	border:1px solid #DAF7A6;
+	margin:20px auto;
+}
+
+input[type="submit"]{
+	padding:10px;
+	color:#fff;
+	background:#75FF33;
+	width:120px;
+	margin:20px auto;
+	margin-top:0px;
+	border:0px;
+	border-radius: 10px;
+	cursor:pointer;
+}
+
+input[type="submit"]:hover{
+	background:#42CD00;
+}
+
+h2 {
+  text-shadow: 1px 1px #a6a6a6;
+}
+
+.header{
+	border-bottom:1px solid #eee;
+	padding:10px 0px;
+	width:100%;
+	text-align:center;
+}
+
+.header a{
+	color: #42CD00;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.background {
+    background-image:url('/AMS/images/homepage.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    box-shadow: 0 0 30px #333;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.my-custom-scrollbar {
+position: relative;
+height: 33%;
+width: 100%;
+overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+display: block;
+}
+
+#attendance {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  display: block;
+  overflow: scroll;
+}
+
+#attendance td, #attendance th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 23%;
+}
+
+#attendance tr:nth-child(even){background-color: #f2f2f2;}
+
+#attendance tr:hover {background-color: #ddd;}
+
+#attendance th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#attendance1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#attendance1 td, #attendance1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#attendance1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#attendance1 tr:hover {background-color: #ddd;}
+
+#attendance1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
